@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cooked_fish",
+      "data": 1
+    },
+    {
+      "item": "minecraft:cooked_fish",
+	  "data": 0
+    },
+	{
+	  "item": "minecraft:dye",
+	  "data": 3
+	}
+  ],
+  "result": {
+    "item": "btc:cat_food",
+    "count": 2
+  }
+}

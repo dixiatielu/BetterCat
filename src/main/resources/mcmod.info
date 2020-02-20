@@ -1,0 +1,16 @@
+[
+{
+  "modid": "btc",
+  "name": "Better Cat",
+  "description": "This would make your cat more useful.",
+  "version": "0.0.1",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["DXTL"],
+  "credits": "This is DXTL's Mod",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

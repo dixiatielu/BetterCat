@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XI"
+  ],
+  "key": {
+    "X": {
+      "item": "btc:fish_spade"
+    },
+	"I": {
+	  "item": "btc:fish_pickaxe"
+	}
+  },
+  "result": {
+    "item": "btc:fish_spadepickaxe"
+  }
+}

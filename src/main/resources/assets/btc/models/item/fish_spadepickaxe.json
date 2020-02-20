@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "btc:items/fish_spadepickaxe"
+  }
+}

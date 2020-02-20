@@ -1,0 +1,12 @@
+item.cat_food.name=猫粮
+item.fish_helmet.name=猫粮鱼头盔
+item.fish_chestplate.name=猫粮鱼胸甲
+item.fish_leggings.name=猫粮鱼护腿
+item.fish_boots.name=猫粮鱼靴子
+item.fish_axe.name=猫粮鱼斧
+item.fish_pickaxe.name=猫粮鱼镐
+item.fish_sword.name=猫粮鱼剑
+item.fish_spade.name=猫粮鱼锹
+item.fish_hoe.name=猫粮鱼锄
+item.fish_spadepickaxe.name=猫粮鱼锹镐
+tile.catfood_block.name=猫粮块
