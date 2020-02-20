@@ -22,6 +22,7 @@ public class CatfoodBlock extends Block implements IHasModel {
         super(Material.CLOTH);
         InitHelper.blockInit(this, name, CreativeTabs.DECORATIONS, 0.5F);
         this.setSoundType(SoundType.SAND);
+        this.setHarvestLevel("shovel", 0);
     }
 
     @Override
@@ -41,5 +42,10 @@ public class CatfoodBlock extends Block implements IHasModel {
     @Override
     public ItemStack getPickBlock(IBlockState state, RayTraceResult target, World world, BlockPos pos, EntityPlayer player) {
         return new ItemStack(this);
+    }
+
+    @Override
+    public boolean canSilkHarvest(World world, BlockPos pos, IBlockState state, EntityPlayer player) {
+        return true;
     }
 }
