@@ -35,7 +35,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/dixiatielu/Minecraft-Mod-Better-Cat-newest">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/豹猫logo.gif" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Better Cat</h3>
