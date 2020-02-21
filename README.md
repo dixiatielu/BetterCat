@@ -28,7 +28,7 @@
 [![Issues](https://img.shields.io/github/issues/dixiatielu/Minecraft-Mod-Better-Cat-newest.svg?style=flat-square)](https://github.com/dixiatielu/Minecraft-Mod-Better-Cat-newest/issues)
 [![MIT License](https://img.shields.io/github/license/dixiatielu/Minecraft-Mod-Better-Cat-newest.svg?style=flat-square)](https://github.com/dixiatielu/Minecraft-Mod-Better-Cat-newest/blob/master/LICENSE.txt)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555)](https://linkedin.com/in/dixiatielu)
-
+![Build](https://github.com/dixiatielu/Minecraft-Mod-Better-Cat-newest/workflows/Build/badge.svg)
 
 
 <!-- PROJECT LOGO -->
