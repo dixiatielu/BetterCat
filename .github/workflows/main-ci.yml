@@ -27,7 +27,7 @@ jobs:
           ${{ runner.os }}-gradle-
 
     - name: Build with Gradle
-      run: ./gradlew build --no-daemon
+      run: ./gradlew build --no-daemon --continuous
 
     - name: Upload Jar
       uses: actions/upload-artifact@v1
