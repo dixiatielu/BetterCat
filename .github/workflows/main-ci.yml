@@ -14,7 +14,7 @@ jobs:
       run: chmod +x ./gradlew
 
     - name: Set up JDK 1.8
-      uses: actions/setup-java@v1
+      uses: actions/setup-java@v1.3.0
       with:
         java-version: 1.8
 
@@ -27,10 +27,10 @@ jobs:
           ${{ runner.os }}-gradle-
 
     - name: Build with Gradle
-      run: ./gradlew build --no-daemon --continuous
+      run: ./gradlew build
 
     - name: Upload Jar
       uses: actions/upload-artifact@v1
       with:
-        name: CC-Tweaked
+        name: Minecraft-Mod-Better-Cat-newest
         path: build/libs
