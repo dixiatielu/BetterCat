@@ -27,7 +27,7 @@ jobs:
           ${{ runner.os }}-gradle-
 
     - name: Build with Gradle
-      run: ./gradlew build
+      run: ./gradlew clean build --refresh-dependencies
 
     - name: Upload Jar
       uses: actions/upload-artifact@v1
