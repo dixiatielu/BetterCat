@@ -35,4 +35,8 @@ public class RegistryHandler {
             }
         }
     }
+
+    public static void preInitRegistries() {
+        RenderHandler.registerEntityRenders();
+    }
 }

@@ -1,5 +1,6 @@
 package com.dxtl.btc.Proxy;
 
+import com.dxtl.btc.Handler.RegistryHandler;
 import com.dxtl.btc.common.EventLoader;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -9,7 +10,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 public class CommonProxy {
     public void registeryModel(Item item, int meta, String id){}
     public void preInit(FMLPreInitializationEvent event) {
-
+        RegistryHandler.preInitRegistries();
     }
     public void init(FMLInitializationEvent event) {
         new EventLoader();

@@ -5,8 +5,11 @@ import com.dxtl.btc.Init.ModItems;
 import com.dxtl.btc.Main;
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.Entity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.util.ResourceLocation;
+import net.minecraftforge.fml.common.registry.EntityRegistry;
 
 public class InitHelper {
     public static void itemInit(Item item, String name, CreativeTabs tab) {
@@ -25,5 +28,8 @@ public class InitHelper {
         block.setHardness(hardness);
         ModItems.ITEMS.add(new ItemBlock(block).setRegistryName(block.getRegistryName()));
         ModBlocks.BLOCKS.add(block);
+    }
+    public static void entityInit(String name, Class<? extends Entity> entity, int id, int range, int color1, int color2) {
+        EntityRegistry.registerModEntity(new ResourceLocation(Reference.MODID + ":" + name), entity, name, id, Main.instance, range, 1, true, color1, color2);
     }
 }
